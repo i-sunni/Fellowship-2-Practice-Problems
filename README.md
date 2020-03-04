@@ -1,4 +1,4 @@
-# 3.6 Debugging Practice
+# 3.7 Debugging Practice
 
 ## Do this first
 
@@ -17,3 +17,8 @@
    1. Feel free to get creative with this message. It's for your benefit.
 
 If anything goes wrong here, please ask for assistance.
+
+# 4.7 Debugging Practice Solution
+
+The code "looks" right at first, but remember, you cannot assign to `this.state` outside of
+the constructor. Instead, use `this.setState()` method.
